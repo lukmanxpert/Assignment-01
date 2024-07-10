@@ -84,6 +84,7 @@ body {
     background-color: rgba(13, 19, 33, 0.02);
     margin: 40px auto;
     border-radius: 5px;
+    padding-bottom: 50px;
 }
 
 .wwd-headings {
