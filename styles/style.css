@@ -61,10 +61,10 @@ body {
 
 .header-banner-section p {
     color: #0D1321;
-    padding: 20px 0;
+    padding: 20px 0 40px;
 }
 
-.header-banner-section button {
+.header-banner-section a {
     font-size: 1rem;
     font-weight: bold;
     padding: 15px 20px;
@@ -73,6 +73,7 @@ body {
     color: white;
     border: none;
     text-transform: capitalize;
+    text-decoration: none;
 }
 
 /* header section end */
@@ -305,7 +306,7 @@ a {
 }
 
 .i-need-support input[type="text"] {
-    width: 250px;
+    width: 300px;
     padding: 10px 20px;
     margin: 10px 5px;
     border: none;
@@ -325,7 +326,7 @@ a {
 /* i need support section end */
 /* footer section start */
 
-footer{
+footer {
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -334,15 +335,19 @@ footer{
     border-radius: 5px;
     padding: 20px;
 }
-footer p{
+
+footer p {
     color: #0D1321;
 }
-footer span{
+
+footer span {
     color: red;
     font-size: 1.5rem;
 }
-.social-icon{
+
+.social-icon {
     display: flex;
     gap: 20px;
 }
+
 /* footer section end */
