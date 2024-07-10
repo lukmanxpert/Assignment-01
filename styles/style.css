@@ -180,43 +180,54 @@ body {
 }
 
 
-.mct-cards{
+.mct-cards {
     display: flex;
     padding: 20px 0;
 }
-.mct-cards .card{
+
+.mct-cards .card {
     margin: 0 10px;
     padding: 30px;
     border-radius: 5px;
     color: #0D1321;
 }
-.mct-cards .card h3{
+
+.mct-cards .card h3 {
     text-transform: uppercase;
 }
-.mct-cards .card > img, h3, p, a{
+
+.mct-cards .card>img,
+h3,
+p,
+a {
     padding: 10px;
 }
-.mct-cards .card a{
+
+.mct-cards .card a {
     color: #0D1321;
     font-weight: bold;
 }
-.card1{
+
+.card1 {
     background-color: rgba(255, 75, 30, 0.05);
 }
-.card2{
+
+.card2 {
     background-color: rgba(0, 77, 232, 0.05);
 }
-.card3{
+
+.card3 {
     background-color: rgba(255, 223, 0, 0.05);
 }
 
 /* my current target end */
 /* my next target start */
 
-.my-next-target{
+.my-next-target {
     text-align: center;
     margin-top: 50px;
 }
+
 .my-next-target h3 {
     font-weight: 900;
     font-size: 1.5rem;
@@ -227,31 +238,87 @@ body {
     color: #0D1321;
     padding: 10px;
 }
-.mnt-cards{
+
+.mnt-cards {
     margin: 50px auto;
 }
-.mnt-card{
+
+.mnt-card {
     display: flex;
     justify-content: flex-start;
     align-items: center;
     border: 1px solid #0D1321;
-    border-radius: 5px;
+    border-radius: 20px;
     padding: 20px;
     margin: 15px auto;
 }
 
-.mnt-desc{
+.mnt-desc {
     padding: 0 10px;
 }
-.mnt-desc h3{
+
+.mnt-desc h3 {
     color: #0D1321;
     font-weight: 900;
 }
-.mnt-desc p{
+
+.mnt-desc p {
     color: #0D1321;
 }
-.mnt-desc a{
+
+.mnt-desc a {
     color: #0D1321;
     font-weight: bold;
 }
+
 /* my next target end */
+/* i need support section start */
+
+.i-need-support {
+    text-align: center;
+    height: 300px;
+    /* background-image: url(../assets/handshake.jpg); */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),
+            rgba(0, 0, 0, 0.5)), url(../assets/handshake.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.i-need-support h2 {
+    color: white;
+    font-weight: bold;
+    text-transform: capitalize;
+    padding: 10px;
+    font-size: 1.5rem;
+}
+
+.i-need-support p {
+    color: rgba(255, 255, 255, 0.7);
+    padding: 10px;
+}
+
+.i-need-support input[type="text"] {
+    width: 250px;
+    padding: 10px 20px;
+    margin: 10px 5px;
+    border: none;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+.i-need-support [type="submit"] {
+    padding: 10px 20px;
+    margin: 10px 5px;
+    border: none;
+    border-radius: 10px;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+/* i need support section end */
