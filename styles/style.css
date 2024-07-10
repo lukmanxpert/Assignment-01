@@ -128,3 +128,31 @@ body {
 }
 
 /* why web development section end */
+
+/* my inspiration start */
+
+.my-inspiration{
+    text-align: center;
+    color: #0D1321;
+}
+.my-inspiration h3{
+    font-weight: 900;
+    font-size: 1.5rem;
+    padding: 10px;
+    color: #0D1321;
+}
+.my-inspiration p{
+    color: #0D1321;
+}
+.my-desc-iframe{
+    border: 1px solid #0D1321;
+    border-radius: 5px;
+    height: 500px;
+    margin: 30px 0;
+}
+.my-desc-iframe iframe{
+    border: 1px solid #0D1321;
+    border-radius: 5px;
+}
+
+/* my inspiration end */
