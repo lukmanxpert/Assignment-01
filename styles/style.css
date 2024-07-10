@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-body{
+body {
     font-family: "Azeret Mono", monospace;
 }
 
@@ -24,7 +24,8 @@ body{
     justify-content: space-between;
     padding: 20px 0;
 }
-.header-sec-01 button{
+
+.header-sec-01 button {
     padding: 10px;
     background-color: white;
     border: 1px solid #0D1321;
@@ -32,7 +33,7 @@ body{
 }
 
 
-.header-banner-section{
+.header-banner-section {
     display: flex;
     flex-direction: column;
     background-image: url(../assets/Hero-bg.png);
@@ -45,21 +46,25 @@ body{
     justify-content: center;
     text-align: center;
 }
-.header-banner-section img{
+
+.header-banner-section img {
     height: 200px;
     width: 200px;
     margin: 0 auto;
 }
-.header-banner-section h1{
+
+.header-banner-section h1 {
     font-weight: 900;
     font-size: xx-large;
     padding: 20px 0;
 }
-.header-banner-section p{
+
+.header-banner-section p {
     color: #0D1321;
     padding: 20px 0;
 }
-.header-banner-section button{
+
+.header-banner-section button {
     font-size: 1rem;
     font-weight: bold;
     padding: 15px 20px;
@@ -72,3 +77,54 @@ body{
 
 /* header section end */
 
+/* why web development section start */
+
+.why-web-dev {
+    background-color: rgba(13, 19, 33, 0.02);
+    margin: 40px auto;
+    border-radius: 5px;
+}
+
+.wwd-headings {
+    text-align: center;
+    margin: 50px auto;
+}
+
+.wwd-headings h2 {
+    font-weight: 900;
+    padding: 50px 0 20px 0;
+}
+
+.wwd-headings p {
+    padding-bottom: 30px;
+}
+
+.wwd-layers .layer {
+    width: 85%;
+    margin: 0 auto;
+    background-color: white;
+    margin: 30px auto;
+    padding: 30px;
+    border-radius: 5px;
+    display: flex;
+}
+
+.layer-desc h3 {
+    color: rgba(13, 19, 33, 0.7);
+    padding: 10px 0;
+}
+
+.layer-desc p {
+    color: #0D1321;
+    padding: 10px 0;
+    margin-bottom: 40px;
+}
+.layer-desc a{
+    text-decoration: none;
+    color: #0D1321;
+    border: 1px solid #0D1321;
+    padding: 10px 20px;
+    font-weight: bold;
+}
+
+/* why web development section end */
