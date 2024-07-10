@@ -165,6 +165,7 @@ body {
 
 .my-current-target {
     text-align: center;
+    margin: 50px auto 30px;
 }
 
 .my-current-target h3 {
@@ -208,4 +209,49 @@ body {
 .card3{
     background-color: rgba(255, 223, 0, 0.05);
 }
+
 /* my current target end */
+/* my next target start */
+
+.my-next-target{
+    text-align: center;
+    margin-top: 50px;
+}
+.my-next-target h3 {
+    font-weight: 900;
+    font-size: 1.5rem;
+    padding: 10px;
+}
+
+.my-next-target p {
+    color: #0D1321;
+    padding: 10px;
+}
+.mnt-cards{
+    margin: 50px auto;
+}
+.mnt-card{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border: 1px solid #0D1321;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 15px auto;
+}
+
+.mnt-desc{
+    padding: 0 10px;
+}
+.mnt-desc h3{
+    color: #0D1321;
+    font-weight: 900;
+}
+.mnt-desc p{
+    color: #0D1321;
+}
+.mnt-desc a{
+    color: #0D1321;
+    font-weight: bold;
+}
+/* my next target end */
