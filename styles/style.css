@@ -160,6 +160,7 @@ body {
 .my-desc-iframe iframe {
     border: 1px solid #0D1321;
     border-radius: 5px;
+    height: 100%;
 }
 
 /* my inspiration end */
@@ -352,3 +353,30 @@ footer span {
 }
 
 /* footer section end */
+
+/* responsive part start */
+
+@media screen and (max-width: 576px) {
+    .layer, .mct-cards{
+        flex-direction: column;
+    }
+    .header-sec-01{
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+    .mnt-cards{
+        flex-direction: column;
+    }
+    .layer{
+        margin: 10px 0;
+    }
+    .my-desc-iframe {
+        border: none;
+        border-radius: 5px;
+        height: 250px;
+        margin: 30px 0;
+    }
+    
+}
+
+/* responsive part end */
